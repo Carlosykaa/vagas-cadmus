@@ -40,7 +40,7 @@ pwd = 'SENHA_AQUI'
 body = """
 E-mail automático.
 
-Em anexo, arquivo em exel contendo as vagas disponíveis no portal https://cadmus.com.br/vagas-tecnologia/!"""
+Em anexo, arquivo em excel contendo as vagas disponíveis no portal https://cadmus.com.br/vagas-tecnologia/!"""
 
 msg.attach(MIMEText(body,'plain'))
 server = smtplib.SMTP('smtp.gmail.com', '587')
